@@ -1,3 +1,7 @@
-<h1>Learn Angular</h1>
-<p>I'm building my first angular app 🚀</p>
-<p>Stay tuned for more updates!</p>
+<H1>Tasks</H1>
+
+<ul>
+  @for (task of tasks; track task.id) {
+    <li>{{ task.title }}</li>
+  }
+</ul>

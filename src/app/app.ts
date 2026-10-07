@@ -7,5 +7,8 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.css',
 })
 export class App {
-  name = signal('Alice');
+  tasks = [
+    { id: 1, title: 'Lära mig Angular', done: false },
+    { id: 2, title: 'Bygga en task-app', done: false },
+  ];
 }
